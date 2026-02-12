@@ -241,51 +241,68 @@ ON country.Capital = city.ID
 WHERE country.Code = 'ESP';
 
 ```
-# 📊 Analytical Skills Demonstrated
 
--Aggregation (COUNT, GROUP BY, AVG)
+## 🚀 Project Competencies
+<table>
+<tr>
 
--Filtering (WHERE, LIKE, BETWEEN)
+<td width="33%" valign="top">
 
--Sorting (ORDER BY)
+<div style="border:1px solid #e1e4e8; padding:15px; border-radius:8px;">
 
--Limiting results (LIMIT)
+### 📊 Analytical Skills
 
--Table relationships using JOIN
+- Aggregation (`COUNT`, `GROUP BY`, `AVG`)
+- Filtering (`WHERE`, `LIKE`, `BETWEEN`)
+- Sorting (`ORDER BY`)
+- Limiting results (`LIMIT`)
+- Table relationships using `JOIN`
+- Population analysis
+- Demographic comparisons
 
--Population analysis
+</div>
 
--Demographic comparisons
+</td>
 
-# 🔐 Database Maintenance & Security Considerations
+<td width="33%" valign="top">
 
--Primary key constraints
+<div style="border:1px solid #e1e4e8; padding:15px; border-radius:8px;">
 
--Foreign key relationships
+### 🔐 Database Maintenance & Security
 
--NOT NULL constraints
+- Primary key constraints
+- Foreign key relationships
+- `NOT NULL` constraints
+- Data validation
+- Backup planning
+- Access control
+- Data encryption awareness
 
--Data validation
+</div>
 
--Backup planning
+</td>
 
--Access control
+<td width="33%" valign="top">
 
--Data encryption awareness
+<div style="border:1px solid #e1e4e8; padding:15px; border-radius:8px;">
 
-# 🎯 Skills Demonstrated
+### 🎯 Core Skills Demonstrated
 
--Relational database design
+- Relational database design
+- SQL query writing
+- Data modelling
+- Analytical problem solving
+- Translating business scenarios into SQL queries
+- Data integrity & security awareness
 
--SQL query writing
+</div>
 
--Data modelling
+</td>
 
--Analytical problem solving
+</tr>
+</table>
 
--Translating business scenarios into SQL queries
 
--Data integrity & security awareness
 
 # 📎 Full Report
 [Download Workbook PDF](https://b2wcompletetraining057-my.sharepoint.com/:w:/r/personal/swidasaeed_bootcamp_justit_co_uk/_layouts/15/Doc.aspx?sourcedoc=%7BB7E86E69-69E4-4D92-A460-1A1E9BDF8683%7D&file=Swida_Saeed_Data_Technician_Workbook_Week_3.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1770901230501&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=bcaf9659-fdc2-4f6e-b7b0-72dacdb31812&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=b12f1179-3301-4ee1-adf1-f7819ae76172)
