@@ -114,5 +114,62 @@ GROUP BY name
 ORDER BY name ASC;
 ```
 
-###
+### Capital of spain 
+
+```sql
+
+SELECT country.Name AS Country,
+       country.Capital AS Code,
+       city.Name AS City
+FROM city
+INNER JOIN country
+ON country.Capital = city.ID
+WHERE country.Code = 'ESP';
+
+```
+# 📊 Analytical Skills Demonstrated
+
+-Aggregation (COUNT, GROUP BY, AVG)
+
+-Filtering (WHERE, LIKE, BETWEEN)
+
+-Sorting (ORDER BY)
+
+-Limiting results (LIMIT)
+
+-Table relationships using JOIN
+
+-Population analysis
+
+-Demographic comparisons
+
+# 🔐 Database Maintenance & Security Considerations
+
+-Primary key constraints
+
+-Foreign key relationships
+
+-NOT NULL constraints
+
+-Data validation
+
+-Backup planning
+
+-Access control
+
+-Data encryption awareness
+
+# 🎯 Skills Demonstrated
+
+-Relational database design
+
+-SQL query writing
+
+-Data modelling
+
+-Analytical problem solving
+
+-Translating business scenarios into SQL queries
+
+-Data integrity & security awareness
 
