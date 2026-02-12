@@ -40,16 +40,122 @@ The project includes:
 
 # 🏪 Part 2: Retail Database Design
 
-A structured database was designed for a small retail shop including inventory, sales, and customer management.
+## 📌 Project Overview
 
-## Tables Created
+A relational database was designed for a small retail business (corner shop) to manage:
 
-- Customers  
-- Products  
-- Loyalty_Accounts  
-- Sales  
-- Suppliers  
 - Inventory  
+- Sales  
+- Customer information  
+- Loyalty programme  
+- Suppliers  
+
+The system supports shop staff, managers, and the business owner.
+
+---
+## 👥 Users of the Database
+
+### Shop Staff
+- Process sales  
+- Check product prices  
+- Update stock levels  
+- Register customers for the loyalty programme  
+
+### Managers
+- Monitor inventory levels  
+- Generate sales reports and KPIs  
+- Manage loyalty rewards  
+- Order new stock  
+
+### Business Owner
+- Analyse overall business performance  
+- Track customer spending patterns  
+- Identify popular products  
+- Make decisions about pricing, promotions, and stock management  
+
+---
+## 🗂 Tables Created
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Customers
+- `customer_id` (Primary Key)  
+- `first_name`  
+- `last_name`  
+- `dob`  
+- `email_address`  
+- `address`  
+- `phone_number`  
+
+</td>
+
+<td width="33%" valign="top">
+
+### Products
+- `product_id` (Primary Key)  
+- `name`  
+- `type`  
+- `price`  
+- `stock_quantity`  
+
+</td>
+
+<td width="33%" valign="top">
+
+### Loyalty_Accounts
+- `account_id` (Primary Key)  
+- `customer_id` (Foreign Key)  
+- `points_earned`  
+- `points_redeemed`  
+- `last_purchased`  
+
+</td>
+</tr>
+
+<tr>
+<td width="33%" valign="top">
+
+### Sales
+- `sale_id` (Primary Key)  
+- `account_id` (Foreign Key)  
+- `transaction_date`  
+- `items_sold`  
+- `total_cost`  
+
+</td>
+
+<td width="33%" valign="top">
+
+### Suppliers
+- `supplier_id` (Primary Key)  
+- `cost_of_supplies`  
+- `supplier_name`  
+- `manufacturing_info`  
+- `quantity`  
+
+</td>
+
+<td width="33%" valign="top">
+
+### Inventory
+- `product_id` (Primary Key)  
+- `supplier_id` (Foreign Key)  
+- `stock_quantity`  
+- `reorder_level`  
+
+</td>
+</tr>
+</table>
+
+## 🔗 Relationships Between Tables
+
+- One Customer → Many Sales  
+- One Customer → One Loyalty Account  
+- One Product → Many Sales  
+- One Supplier → Many Products  
+- One Product → One Inventory Record  
 
 ## Example SQL Table Creation
 
@@ -73,6 +179,7 @@ VALUES
 (1, 'Swida','Saeed', '1997-02-06','example@email.com',
 'London, UK', 447900000000);
 ```
+**The SQL queries are available in the repository under retail_database_design.sql file**
 # 🌍 Part 3: SQL Pratical-world_db Analysis 
 
 Using the world_db dataset, multiple analytical scenarios were completed 
