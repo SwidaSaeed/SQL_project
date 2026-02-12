@@ -77,7 +77,13 @@ VALUES
 
 Using the world_db dataset, multiple analytical scenarios were completed 
 
+## World_db ER Diagram
+![Alt text](images/world_database_er.png)
+
+
 ## Example Queries
+
+You can get access to more queries with the world_db_analysis.sql file. 
 
 ### Count cities in USA
 
