@@ -185,12 +185,13 @@ VALUES
 Using the world_db dataset, multiple analytical scenarios were completed 
 
 ## World_db ER Diagram
+**If you are working on mySQL Workbench, you can get access of the schema without creating your own one.**
 ![Alt text](images/world_database_er.png)
 
 
 ## Example Queries
 
-You can get access to more queries with the world_db_analysis.sql file. 
+You can get access to more queries with the world_db_analysis.sql file available in the repository. 
 
 ### Count cities in USA
 
@@ -286,3 +287,5 @@ WHERE country.Code = 'ESP';
 
 -Data integrity & security awareness
 
+# 📎 Full Report
+[Download Workbook PDF](https://b2wcompletetraining057-my.sharepoint.com/:w:/r/personal/swidasaeed_bootcamp_justit_co_uk/_layouts/15/Doc.aspx?sourcedoc=%7BB7E86E69-69E4-4D92-A460-1A1E9BDF8683%7D&file=Swida_Saeed_Data_Technician_Workbook_Week_3.docx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1770901230501&wdOrigin=OFFICECOM-WEB.MAIN.EDGEWORTH&cid=bcaf9659-fdc2-4f6e-b7b0-72dacdb31812&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=b12f1179-3301-4ee1-adf1-f7819ae76172)
